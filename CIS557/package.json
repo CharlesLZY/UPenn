@@ -1,0 +1,23 @@
+{
+  "name": "fall-2021-cis557-project-group-centric-social-network",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "npm": "<=8.1.0",
+    "node": "<=16.13.0"
+  },
+  "scripts": {
+    "server-install": "cd server && npm install",
+    "client-install": "cd client && npm install",
+    "install": "npm run server-install && npm run client-install",
+    "build": "npm run install && cd client && npm run build",
+    "start": "cd server && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CharlesLZY/CIS557_Project.git"
+  },
+  "keywords": [],
+  "author": "Charles",
+  "license": "ISC"
+}

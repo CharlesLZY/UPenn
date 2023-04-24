@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/">
+        <file>glsl/post/bloom.frag.glsl</file>
+        <file>glsl/post/gaussian.frag.glsl</file>
+        <file>glsl/post/greyscale.frag.glsl</file>
+        <file>glsl/post/sobel.frag.glsl</file>
+        <file>glsl/surface/blinnPhong.frag.glsl</file>
+        <file>glsl/surface/blinnPhong.vert.glsl</file>
+        <file>glsl/surface/gradient.frag.glsl</file>
+        <file>glsl/surface/gradient.vert.glsl</file>
+        <file>glsl/surface/lambert.frag.glsl</file>
+        <file>glsl/surface/lambert.vert.glsl</file>
+        <file>glsl/surface/matcap.frag.glsl</file>
+        <file>glsl/surface/matcap.vert.glsl</file>
+        <file>glsl/post/noOp.frag.glsl</file>
+        <file>glsl/post/passthrough.vert.glsl</file>
+        <file>glsl/surface/deform.frag.glsl</file>
+        <file>glsl/surface/deform.vert.glsl</file>
+        <file>glsl/post/test.frag.glsl</file>
+        <file>glsl/post/mosaic.frag.glsl</file>
+        <file>glsl/post/bubble.frag.glsl</file>
+        <file>glsl/post/shift.frag.glsl</file>
+        <file>glsl/post/fried.frag.glsl</file>
+        <file>glsl/post/biome.frag.glsl</file>
+        <file>glsl/post/height.frag.glsl</file>
+        <file>glsl/post/venom.frag.glsl</file>
+    </qresource>
+</RCC>

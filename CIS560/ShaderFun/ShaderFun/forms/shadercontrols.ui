@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ShaderControls</class>
+ <widget class="QWidget" name="ShaderControls">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>250</width>
+    <height>377</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>120</y>
+     <width>201</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font/>
+   </property>
+   <property name="title">
+    <string>Post-Process Shader</string>
+   </property>
+   <widget class="QComboBox" name="postprocessShaderComboBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>141</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font/>
+    </property>
+    <item>
+     <property name="text">
+      <string>None</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Greyscale</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Gaussian Blur</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sobel</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bloom</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mosaic</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Shift</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bubble</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fried(not finished)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>test</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>biome</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>height</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>venom</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>0</y>
+     <width>241</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Shader Options</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>201</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font/>
+   </property>
+   <property name="title">
+    <string>Surface Shader</string>
+   </property>
+   <widget class="QComboBox" name="surfaceShaderComboBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>141</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font/>
+    </property>
+    <item>
+     <property name="text">
+      <string>Lambert</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Blinn-Phong</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Matcap</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Color Gradient</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Vertex Deformation</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>190</y>
+     <width>201</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font/>
+   </property>
+   <property name="title">
+    <string>Model</string>
+   </property>
+   <widget class="QComboBox" name="modelComboBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>141</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font/>
+    </property>
+    <item>
+     <property name="text">
+      <string>Wahoo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Moo Beast</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Cube</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>270</y>
+     <width>201</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font/>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="matcapTab">
+    <attribute name="title">
+     <string>Matcap Options</string>
+    </attribute>
+    <widget class="QComboBox" name="matcapComboBox">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>141</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font/>
+     </property>
+     <item>
+      <property name="text">
+       <string>Red Clay</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Red Plastic</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Chrome</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Pearl</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Orange-Green</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Blue-Purple</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Outline</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Surface Normals</string>
+      </property>
+     </item>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

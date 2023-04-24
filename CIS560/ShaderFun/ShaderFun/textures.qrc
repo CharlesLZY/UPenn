@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>textures/matcaps/00ZBrush_RedWax.png</file>
+        <file>textures/matcaps/JG_Red.png</file>
+        <file>textures/matcaps/silver.jpg</file>
+        <file>textures/matcaps/pearl.jpg</file>
+        <file>textures/matcaps/JGSpecial_01.png</file>
+        <file>textures/matcaps/Shiny_Fire_1c.png</file>
+        <file>textures/matcaps/Outline.png</file>
+        <file>textures/matcaps/normals.jpg</file>
+        <file>textures/uvTest.jpg</file>
+        <file>textures/wahoo.bmp</file>
+        <file>textures/smb.jpg</file>
+        <file>textures/winxp.jpg</file>
+        <file>textures/mengersponge.jpg</file>
+        <file>textures/fractal.jpg</file>
+    </qresource>
+</RCC>
